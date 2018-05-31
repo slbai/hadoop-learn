@@ -14,7 +14,7 @@ import java.io.IOException;
  * @Date: 2018/5/29 16:12
  * @Description:
  */
-public class MaxTemperature extends Mapper<LongWritable,Text,Text,IntWritable> {
+public class MaxTemperatureMapper extends Mapper<LongWritable,Text,Text,IntWritable> {
 
     private static final int MISSING = 9999;
 
