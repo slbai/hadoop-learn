@@ -2,10 +2,8 @@ package ch03;
 
 import org.apache.hadoop.fs.FsUrlStreamHandlerFactory;
 import org.apache.hadoop.io.IOUtils;
-import sun.nio.ch.IOUtil;
 
 import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
